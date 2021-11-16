@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('imagem/5591421.jpg');
+    background-repeat: no-repeat;
+    font-family: 'Shippori Antique B1', sans-serif;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.cabecalho {
+    text-align: center;
+    font-size: 30px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 20px;
+    border-bottom: 4px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+.custom {
+    background-color: #ffa500;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.custom:hover {
+    background-color: #ff8c00;
+}
+
+.adicionarTarefa {
+    min-width: 100vh;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputArea {
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    padding-left: 20px;
+    font-size: 18px;
+    box-shadow: 4px 9px 5px 0px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 4px 9px 5px 0px rgba(0,0,0,0.56);
+    -moz-box-shadow: 4px 9px 5px 0px rgba(0,0,0,0.56);
+}
+
+.inputArea::placeholder {
+    font-size: 16px;
+}
+
+.inputArea:focus {
+    border: 2px solid #ffa500;
+}
+
+.botaoCadastro {
+    height: 32px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #ffa500;
+    box-shadow: 4px 9px 5px 0px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 4px 9px 5px 0px rgba(0,0,0,0.56);
+    -moz-box-shadow: 4px 9px 5px 0px rgba(0,0,0,0.56);
+}
+
+.containerLista {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.listaDeTarefas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 90vh;
+    min-height: 70vh;
+}
+
+li {
+    padding-left: 20px;
+    background-color: #dedede;
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    list-style: none;
+    cursor: pointer;
+    border-bottom: 3px solid #ffc790;
+}
+
+li:hover {
+    background-color: #ffc790;
+}
+
+.botaoCadastro:hover{
+    background-color: #ff8c00;
+}
+
