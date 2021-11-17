@@ -11,7 +11,7 @@ body {
     font-family: 'Shippori Antique B1', sans-serif;
     min-height: 100vh;
     width: 100vw;
-    overflow-x: hidden;
+
 }
 
 .container {
@@ -21,6 +21,7 @@ body {
     align-items: center;
     min-height: 100vh;
     min-width: 100vw;
+    overflow-x: hidden;
 }
 
 .cabecalho {
@@ -100,7 +101,6 @@ h1 {
 
 .containerLista {
     margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     color: black;
     font-size: 20px;
@@ -115,6 +115,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    min-height: calc(50vh + 80px)
 }
 
 li {
@@ -123,7 +125,8 @@ li {
     border-radius: 10px;
     width: 90%;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     list-style: none;
     cursor: pointer;
     border-bottom: 3px solid #ffc790;
@@ -163,16 +166,26 @@ li:hover {
 
 @media only screen and (max-width: 763px) {
     .cabecalho h1 {
-        font-size: 1em;
-    }
-
-    .containerLista {
-        min-height: calc(50vh + 80px);
+        font-size: 0.8em;
     }
 }
 
-@media only screen and (max-width: 763px) {
-    .cabecalho h1 {
-        font-size: 0.8em;
+
+@media only screen and (max-width: 320px) {
+    .cabecalho h1{
+        font-size: 0.7em;
+    }
+
+    .botaoCadastro {
+        margin: 0px 150px;
+        margin-top: 10px;
+    }
+    .adicionarTarefa {
+        flex-wrap: wrap;
+    }
+
+    .inputArea {
+        max-width: initial;
+        width: 44%;
     }
 }
