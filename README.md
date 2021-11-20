@@ -1,7 +1,7 @@
 <h1 align="center">Lista de Tarefas</h1>
 
 <h2 align="center">Sobre o projeto</h2>
-<p>Essa lista de tarefa possibilita a inclusão e exclusão de novas tarefas, e sempre que algo é adicionado ou retirado automaticamente as tarefas são atualiazadas no local Storage do navegador, ou seja, mesmo fechando a página as tarefas ainda continuarão salvas.</p>
+<p>Essa lista de tarefa possibilita a inclusão e exclusão de novas tarefas. Sempre que algo é adicionado ou retirado, automaticamente as tarefas são atualizadas no local storage do navegador, ou seja, mesmo fechando a página as tarefas ainda continuarão salvas.</p>
 
 <h2>
     <img src="imagem/listaDeTar.gif">
